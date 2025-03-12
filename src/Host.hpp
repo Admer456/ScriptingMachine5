@@ -19,7 +19,7 @@
 
 #define SM5_CALL CORECLR_DELEGATE_CALLTYPE
 
-namespace sm5
+namespace smv
 {
 	// Shorten these names
 	// Used by Host to load function pointers for assemblies

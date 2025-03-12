@@ -5,7 +5,7 @@
 #include "ErrorWriter.hpp"
 #include <iostream>
 
-using namespace sm5;
+using namespace smv;
 
 void ErrorWriter::Register( fxrSetErrorWriter_f* setErrorWriter )
 {

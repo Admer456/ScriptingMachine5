@@ -3,7 +3,7 @@
 
 #pragma once
 
-namespace sm5
+namespace smv
 {
 	class ErrorWriter final
 	{

@@ -6,7 +6,7 @@
 
 #include <iostream>
 
-using namespace sm5;
+using namespace smv;
 
 struct Vector3
 {

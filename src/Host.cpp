@@ -16,7 +16,7 @@
 #include <dlfcn.h>
 #endif
 
-using namespace sm5;
+using namespace smv;
 
 bool Host::Init( std::string_view runtimeConfigPath )
 {

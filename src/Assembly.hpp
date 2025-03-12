@@ -5,7 +5,7 @@
 
 #include <string>
 
-namespace sm5
+namespace smv
 {
 	class Assembly
 	{

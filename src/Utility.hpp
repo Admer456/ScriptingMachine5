@@ -7,7 +7,7 @@
 #include <string_view>
 #pragma warning( disable : 4244 )
 
-namespace sm5
+namespace smv
 {
 	inline void WStringToString( const std::wstring& in, std::string& out )
 	{

@@ -5,7 +5,7 @@
 #include "Assembly.hpp"
 #include "Utility.hpp"
 
-using namespace sm5;
+using namespace smv;
 
 Assembly::Assembly( std::string_view path )
 	: fullPath( path )
