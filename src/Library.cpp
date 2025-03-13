@@ -1,4 +1,4 @@
-// SPDX-FileCopyrightText: 2022 Admer Šuko
+// SPDX-FileCopyrightText: 2021-2025 Admer Šuko
 // SPDX-License-Identifier: MIT
 
 #include "Library.hpp"
