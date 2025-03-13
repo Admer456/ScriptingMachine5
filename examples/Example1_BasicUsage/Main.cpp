@@ -12,14 +12,22 @@ int main()
 {
 	if ( !Host::Init( "example.runtimeconfig.json" ) )
 	{
-		std::cout << "Failed to initialize host." << std::endl;
+		std::cout << "Failed to initialize host. Make sure to copy:" << std::endl;
+		std::cout << "* examples/Example1_BasicUsage/example.runtimeconfig.json" << std::endl;
+		std::cout << "to:" << std::endl;
+		std::cout << "* examples/Example1_BasicUsage/ManagedLibrary/bin/Debug/net8.0" << std::endl;
+		std::cout << "or" << std::endl;
+		std::cout << "* examples/Example1_BasicUsage/ManagedLibrary/bin/Release/net8.0" << std::endl;
 		return 1;
 	}
 
 	Assembly* library = Host::LoadAssembly( "ManagedLibrary.dll" );
 	if ( library == nullptr )
 	{
-		std::cout << "Failed to load ManagedLibrary.dll" << std::endl;
+		std::cout << "Failed to load ManagedLibrary.dll. Make sure to set the working directory to:" << std::endl;
+		std::cout << "* examples/Example1_BasicUsage/ManagedLibrary/bin/Debug/net8.0" << std::endl;
+		std::cout << "or" << std::endl;
+		std::cout << "* examples/Example1_BasicUsage/ManagedLibrary/bin/Release/net8.0" << std::endl;
 		return 2;
 	}
 
