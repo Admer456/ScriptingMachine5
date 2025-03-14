@@ -1,0 +1,6 @@
+
+*.cpp linguist-language=C++
+*.h linguist-language=C++
+
+*.cs linguist-detectable=true
+*.cs linguist-language=C#
